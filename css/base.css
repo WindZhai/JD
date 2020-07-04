@@ -16,6 +16,11 @@ body {
     /* 增加权重，不会被覆盖 */
     color: #e1251b!important;
 }
+img {
+    /* display: block; */
+    vertical-align: middle;
+    /* 解决图片底部有空白缝隙的问题 */
+}
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?cuxzr1');
